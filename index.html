@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>⼩明的第三週 HTML 實作練習</title>
 
-    <!-- 1. 預先連接 Google Fonts 伺服器以提升載⼊速度 -->
+    <!-- 1. 預先連接 =Google Fonts 伺服器以提升載⼊速度 -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <!-- 2. 引⼊ Google Noto Sans TC (思源⿊體) 雲端字型 -->
@@ -23,6 +23,7 @@
         <nav>
             <a href="index.html">⾸⾴</a> |
             <a href="https://www.shu.edu.tw/" target="_blank">世新⼤學⾸⾴</a>
+            <button id="theme-btn" onclick="toggleTheme()">切換深⾊模式</button>
         </nav>
     </header>
     <section>
@@ -60,6 +61,9 @@
     <footer>
         <p>© 2026 ⼩明 All Rights Reserved.</p>
     </footer>
+
+    <!--引入外部 ＪavaScript 檔案-->
+    <script src="script.js"></script>
 </body>
 
 </html>
